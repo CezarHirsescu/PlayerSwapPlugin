@@ -2,6 +2,7 @@ name: PlayerSwap
 auther: Cezar
 main: me.cezar.Plugin.SwapPlugin
 version: 1.0
+api-version: 1.16
 description: swaps players every 5 minutes
 
 commands:
