@@ -1,9 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="PlayerSwap:jar">
+  <artifact type="jar" build-on-make="true" name="PlayerSwap:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/PlayerSwap_jar</output-path>
     <root id="archive" name="PlayerSwap.jar">
       <element id="module-output" name="PlayerSwap" />
-      <element id="extracted-dir" path="$USER_HOME$/Minecraft Server Stuff/craftbukkit-1.16.2.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
