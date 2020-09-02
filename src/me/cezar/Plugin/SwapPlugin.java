@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SwapPlugin extends JavaPlugin {
+    private final Commands commands = new Commands(this);
     private List<Player> players = new ArrayList<>();
     private boolean isGameStarted = false;
 
@@ -29,7 +30,6 @@ public class SwapPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        Commands commands = new Commands(this);
 
         getCommand(Commands.cmdStart).setExecutor(commands);
         getCommand(Commands.cmdStop).setExecutor(commands);
